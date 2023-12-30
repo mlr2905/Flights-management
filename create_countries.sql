@@ -1,5 +1,5 @@
 create table countries (
-	id SERIAL PRIMARY KEY,
+	id INT PRIMARY KEY,
 	name VARCHAR(255) NOT NULL
 )
 
