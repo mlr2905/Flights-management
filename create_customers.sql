@@ -1,4 +1,4 @@
-create table cusstomers (
+create table customers (
 	id SERIAL PRIMARY KEY,
 	first_neme VARCHAR(255) NOT NULL,
 	last_neme VARCHAR(255) NOT NULL,
