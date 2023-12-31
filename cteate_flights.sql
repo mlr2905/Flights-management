@@ -1,6 +1,6 @@
 
 create table flights (
-	id BIGINT PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
 	airline_id  BIGINT,
 	FOREIGN KEY (airline_id) REFERENCES airlines(id),
 	origin_country_id INT,

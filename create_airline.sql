@@ -1,6 +1,6 @@
 
 create table airlines (
-	id BIGINT PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
 	name VARCHAR(255) NOT NULL,
 	country_id INT,
 	FOREIGN KEY (country_id) REFERENCES countries(id),

@@ -1,5 +1,5 @@
 create table customers (
-	id BIGINT PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
 	address VARCHAR(255) NOT NULL,
