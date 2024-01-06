@@ -7,7 +7,7 @@ create table flights (
 	FOREIGN KEY (origin_country_id) REFERENCES countries(id),
     destination_country_id INT  NOT NULL,
 	FOREIGN KEY (destination_country_id) REFERENCES countries(id),
-	departuer_time TIMESTAMP NOT NULL,
+	departure_time TIMESTAMP NOT NULL,
 	landing_time TIMESTAMP NOT NULL,
 	remaining_tickets  INT NOT NULL
 	)

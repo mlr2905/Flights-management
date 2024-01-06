@@ -1,4 +1,4 @@
-INSERT INTO airlines (name, continent_id, user_id)
+INSERT INTO airlines (name, country_id, user_id)
 VALUES
 ('Atlas Air', 68, 4),
 ('American Airlines', 68, 5),
