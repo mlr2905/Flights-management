@@ -4,4 +4,7 @@ create table tickets (
 	FOREIGN KEY (flight_id) REFERENCES flights(id),
 	customer_id  BIGINT  UNIQUE  NOT NULL,
 	FOREIGN KEY (customer_id) REFERENCES customers(id)
+	passenger_id  BIGINT  UNIQUE  NOT NULL,
+		FOREIGN KEY (passenger_id) REFERENCES passengers(id)
+
 	)
