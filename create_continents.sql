@@ -1,6 +1,6 @@
 create table continents (
 	id SERIAL PRIMARY KEY,
-	name VARCHAR(10) NOT NULL,
+	name VARCHAR(30) NOT NULL,
 )
 
 1	"Africa"
