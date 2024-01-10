@@ -22,4 +22,12 @@ VALUES
 ('Lufthansa', 48, 23),
 ('Royal Air Maroc', 72, 24),
 ('Nigeria Airways', 8, 25),
-('United Airlines', 36, 26);
+('United Airlines', 36, 26),
+('El Al' ,74,28),
+('Arkay',74,29),
+('Israir',74,30),
+('San Door' ,74,31),
+('aya aviation',74,32),
+('Air Haifa',74,33),
+('meof aviation',74,34),
+('Ait Aviation',74,35);
